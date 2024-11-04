@@ -1,0 +1,29 @@
+name: NLP-Course
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - numpy
+  - scipy
+  - pandas
+  - pandera
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - spacy
+  - streamlit
+  - streamlit-extras
+  - mystmd
+  - pytorch
+  - nltk
+  - gensim
+  - bokeh
+  - beautifulsoup4
+  - lightning
+  - torchmetrics
+  - torchvision
+  - tqdm
+  - pip
+  - pip:
+    - pandas[performance,output-formatting] 
