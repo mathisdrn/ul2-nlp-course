@@ -21,9 +21,10 @@ dependencies:
   - bokeh
   - beautifulsoup4
   - lightning
-  - torchmetrics
-  - torchvision
   - tqdm
+  - mistralai
+  - faiss-cpu
+  - ollama
   - pip
   - pip:
     - pandas[performance,output-formatting] 
