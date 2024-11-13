@@ -22,9 +22,11 @@ dependencies:
   - beautifulsoup4
   - lightning
   - tqdm
-  - mistralai
   - faiss-cpu
-  - ollama
+  # - ollama
+  - sentence-transformers
   - pip
   - pip:
     - pandas[performance,output-formatting] 
+    - mistralai
+    - ollama
